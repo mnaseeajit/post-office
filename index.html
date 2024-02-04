@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>post office</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- User Information Section -->
+        <div class="user-info">
+            <div id="div1">
+                <h2>Post Office Application.</h2>
+                <p>This Application Allows you to extract information about <br>the nearest Post Offices, based on your location.</p>
+                <img id="img1" src="./assets/undraw_messenger_re_8bky 1.png" style="width: 400px;">
+            </div>
+            <div id="div2">
+                  <p id="user-ip">Your IP Address: Loading...</p>
+                  <button id="get-info-btn">Get Started</button>
+            </div>
+        </div>
+
+        <!-- next page -->
+        <div id="second">
+            <div id="nextPage">
+               
+            </div>
+
+            <!-- Google Map Section -->
+           <div class="map">
+               <h3>Your Current Location</h3>
+               <iframe id="google-map" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+
+        <!-- more info -->
+            <div id="more-info">
+                
+            </div>
+
+        <!-- Post Offices Section -->
+            <div class="post-offices">
+                <h3>Post Offices Near You</h3>
+                <input type="text" id="search-box" placeholder="Search by name">
+                 <ul id="post-offices-list">
+                
+               </ul>
+           </div>
+        </div>
+    </div>
+
+    <!-- Include necessary JS scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
